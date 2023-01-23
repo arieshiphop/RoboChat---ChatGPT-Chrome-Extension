@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "";
 
 export default async function requestAiResponse(message) {
   const requestOptions = {

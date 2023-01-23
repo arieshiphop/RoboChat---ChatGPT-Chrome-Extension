@@ -1,0 +1,18 @@
+{
+    "name": "RoboChat AI",
+    "description": "RoboChat AI is an intelligent chatbot platform that offers automated chat solutions to enhance the user experience.",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_width": 1280,
+        "default_height": 720,
+        "default_icon": "./assets/logo.png"
+      },
+      "icons": {
+        "16": "./assets/logo.png",
+        "48": "./assets/logo.png",
+        "128": "./assets/logo.png"
+      },
+    "manifest_version": 2
+    
+}

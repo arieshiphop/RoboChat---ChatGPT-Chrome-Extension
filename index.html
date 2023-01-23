@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" style="width: 500px; height: 500px">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer type="module"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <title>RoboChat AI</title>
+  </head>
+  <body
+    style="
+      background-image: url('./assets/bg-roboto.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+    "
+  >
+    <div class="chat">
+      <div class="chat-title">
+        <h1>RoboChat AI</h1>
+        <h2>Ask me</h2>
+        <figure class="avatar">
+          <img src="./assets/logo.png" />
+        </figure>
+      </div>
+      <div class="messages">
+        <div class="messages-content"></div>
+      </div>
+      <div class="message-box">
+        <textarea
+          type="text"
+          class="message-input"
+          placeholder="Type message..."
+        ></textarea>
+        <button
+          type="submit"
+          class="message-submit"
+          onclick="insertUserMessage()"
+        >
+          Send
+        </button>
+      </div>
+    </div>
+    <div class="bg"></div>
+  </body>
+</html>
